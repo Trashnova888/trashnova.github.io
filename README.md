@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spin-off of "Project: Event invite"</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    .invitation {
+      border: 2px solid #ff6b6b;
+      border-radius: 10px;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff0f0;
+    }
+    h1 {
+      color: #ff4757;
+    }
+    .details {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .rsvp {
+      margin-top: 30px;
+      font-weight: bold;
+    }
+    .rsvp-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .rsvp-button:hover {
+      background-color: #e55050;
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation">
+    <h1>You're Invited!</h1>
+    <p class="details">
+      🎉 Join us for a fun House Party!<br><br>
+      📍 Location: 123 Party Lane, Good Vibes City<br>
+      🗓️ Date: Saturday, May 10th<br>
+      🕗 Time: 7:00 PM until late
+    </p>
+    <p class="rsvp">
+      RSVP by May 5th
+      <br>
+      <a class="rsvp-button" href="mailto:yourname@example.com?subject=House Party RSVP">RSVP Now</a>
+    </p>
+  </div>
+</body>
+</html>
